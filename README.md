@@ -11,4 +11,5 @@ A saida dos hosts validos por padrao pega o nome do dominio e cria um arquivo na
 200 lista-hosts.txt
 </br>
 Padrão = 200 <(subfinder -d exemplo.com)
+</br>
 Com Threds setados = 200 -t 50 <(subfinder -d exemplo.com)
