@@ -10,6 +10,6 @@ A saida dos hosts validos por padrao pega o nome do dominio e cria um arquivo na
 <h2>Exemplo de uso</h2>
 200 lista-hosts.txt
 </br>
-Padrão = 200 <(subfinder -d exemplo.com)
+Padrão = python3 validate-200.py  <(subfinder -d exemplo.com)
 </br>
-Com Threds setados = 200 -t 50 <(subfinder -d exemplo.com)
+Com Threds setados = python3 validate-200.py -t 50 <(subfinder -d exemplo.com)
